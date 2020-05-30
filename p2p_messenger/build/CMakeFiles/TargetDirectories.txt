@@ -1,0 +1,3 @@
+/home/misha/p2p_mes/p2p_messenger/build/CMakeFiles/rebuild_cache.dir
+/home/misha/p2p_mes/p2p_messenger/build/CMakeFiles/p2p_messenger.dir
+/home/misha/p2p_mes/p2p_messenger/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,6 @@
+/snap/clion/112/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/misha/p2p_mes/p2p_messenger
+-- Found Boost: /usr/include (found version "1.65.1")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: system 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/misha/p2p_mes/p2p_messenger/cmake-build-debug

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="p2p_messenger"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p2p_messenger">
+				<Option output="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/p2p_messenger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/misha/p2p_mes/p2p_messenger/include"/>
+					<Add directory="/home/misha/p2p_mes/p2p_messenger/%{Boost_INCLUDE_DIRS}"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 p2p_messenger"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p2p_messenger/fast">
+				<Option output="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/p2p_messenger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/misha/p2p_mes/p2p_messenger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/misha/p2p_mes/p2p_messenger/include"/>
+					<Add directory="/home/misha/p2p_mes/p2p_messenger/%{Boost_INCLUDE_DIRS}"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 p2p_messenger/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/misha/p2p_mes/p2p_messenger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/CMakeLists.txt">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/Chat.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/Client.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/IReceivable.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/ISendable.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/Message.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/Peer.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/Server.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/Storage.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/include/User.h">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/main.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/Chat.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/Client.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/Message.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/Peer.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/Server.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/Storage.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/src/User.cpp">
+			<Option target="p2p_messenger"/>
+		</Unit>
+		<Unit filename="/home/misha/p2p_mes/p2p_messenger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
